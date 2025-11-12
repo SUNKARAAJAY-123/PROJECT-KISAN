@@ -1,0 +1,84 @@
+{
+  "name": "Project Kisan - Smart Farming Assistant",
+  "short_name": "Kisan",
+  "description": "AI-powered farming assistant for crop diagnosis, market prices, and weather updates",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "orientation": "portrait-primary",
+  "categories": ["agriculture", "productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "16x16 32x32 48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshot-narrow.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Crop Doctor",
+      "short_name": "Diagnose",
+      "description": "Diagnose crop diseases with AI",
+      "url": "/?view=crop-doctor",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "Market Prices",
+      "short_name": "Prices",
+      "description": "Check current market prices",
+      "url": "/?view=market-prices",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    },
+    {
+      "name": "Weather",
+      "short_name": "Weather",
+      "description": "Get weather forecast",
+      "url": "/?view=weather",
+      "icons": [
+        {
+          "src": "/favicon.ico",
+          "sizes": "32x32"
+        }
+      ]
+    }
+  ]
+}
